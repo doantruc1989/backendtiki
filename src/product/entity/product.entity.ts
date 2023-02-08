@@ -25,7 +25,7 @@ export class Product extends SharedProp {
     @PrimaryGeneratedColumn({ type: 'bigint', name: 'id' })
     id: number;
 
-    @Column('varchar', { name: 'productName', length: 75 })
+    @Column('varchar', { name: 'productName'})
     productName: string;
 
     @Column('float', { name: 'price', precision: 12, default: () => "'0'" })
@@ -34,7 +34,7 @@ export class Product extends SharedProp {
     @Column('float', { name: 'initialPrice', precision: 12, default: () => "'0'" })
     initialPrice: number;
 
-    @Column('smallint', { name: 'quantity', default: () => "'0'" })
+    @Column('smallint', { name: 'quantity', default: () => "'100'" })
     quantity: number;
 
     @Column('varchar')
@@ -43,20 +43,8 @@ export class Product extends SharedProp {
     @Column('varchar')
     category: string;
 
-    // @Column( 'datetime', { name: 'createdAt' } )
-    // createdAt: Date;
-
-    // @Column( 'datetime', { name: 'updatedAt', nullable: true } )
-    // updatedAt: Date | null;
-
-    // @Column( 'datetime', { name: 'publishedAt', nullable: true } )
-    // publishedAt: Date | null;
-
-    // @Column( 'datetime', { name: 'startsAt', nullable: true } )
-    // startsAt: Date | null;
-
-    // @Column( 'datetime', { name: 'endsAt', nullable: true } )
-    // endsAt: Date | null;
+    @Column('varchar')
+    brand: string;
 
     @Column('text', { name: 'content', nullable: true })
     content: string | null;

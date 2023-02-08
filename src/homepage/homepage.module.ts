@@ -7,9 +7,10 @@ import { Bosuutap } from './entity/bosuutap';
 import { Giasochomnay } from './entity/giasochomnay';
 import { Thuonghieuchinhhang } from './entity/thuonghieuchinhhang';
 import { Thuonghieusaletet } from './entity/thuonghieusaletet';
+import { Dichvutienich } from './entity/dichvutienich.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Hero,Bosuutap,Giasochomnay,Thuonghieuchinhhang,Thuonghieusaletet])],
+  imports: [TypeOrmModule.forFeature([Hero,Bosuutap,Giasochomnay,Thuonghieuchinhhang,Thuonghieusaletet, Dichvutienich])],
   providers: [HomepageService],
   controllers: [HomepageController]
 })

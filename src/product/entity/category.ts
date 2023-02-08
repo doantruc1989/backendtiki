@@ -1,22 +1,9 @@
 import {
     Column,
     Entity,
-    Index,
-    // JoinColumn,
-    // JoinTable,
-    // ManyToMany,
-    // ManyToOne,
-    // OneToMany,
     PrimaryGeneratedColumn
 } from 'typeorm';
 
-// import { CartItem } from './CartItem';
-// import { OrderItem } from './OrderItem';
-// import { User } from './User';
-// import { Category } from './Category';
-// import { ProductMeta } from './ProductMeta';
-// import { ProductReview } from './ProductReview';
-// import { Tag } from './Tag';
 
 @Entity('category')
 export class Category {

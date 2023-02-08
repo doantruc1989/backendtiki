@@ -4,7 +4,6 @@
 -- Server OS:                    Win64
 -- HeidiSQL Phiên bản:           12.3.0.6589
 -- --------------------------------------------------------
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET NAMES utf8 */;
 /*!50503 SET NAMES utf8mb4 */;
@@ -16,7 +15,7 @@
 
 
 -- Dumping database structure for db3
-CREATE DATABASE IF NOT EXISTS `db3` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
+CREATE DATABASE IF NOT EXISTS `db3` /*!40100 DEFAULTdb3db3db3db3 CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
 USE `db3`;
 
 -- Dumping structure for table db3.blog
@@ -329,3 +328,4 @@ CREATE TABLE IF NOT EXISTS `user` (
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
+db3db3db3db3db3db3

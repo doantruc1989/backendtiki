@@ -21,6 +21,7 @@ import { Bosuutap } from './homepage/entity/bosuutap';
 import { Giasochomnay } from './homepage/entity/giasochomnay';
 import { Thuonghieuchinhhang } from './homepage/entity/thuonghieuchinhhang';
 import { Thuonghieusaletet } from './homepage/entity/thuonghieusaletet';
+import { Dichvutienich } from './homepage/entity/dichvutienich.entity';
 
 @Module({
 
@@ -31,7 +32,7 @@ import { Thuonghieusaletet } from './homepage/entity/thuonghieusaletet';
     username: 'root',
     password: '',
     database: 'db3',
-    entities: [User, Product, Category, Blog, OrderItem, SaleRevenue, Province, Hero, Bosuutap, Giasochomnay,Thuonghieuchinhhang,Thuonghieusaletet],
+    entities: [User, Product, Category, Blog, OrderItem, SaleRevenue, Province, Hero, Bosuutap, Giasochomnay,Thuonghieuchinhhang,Thuonghieusaletet, Dichvutienich],
     synchronize: true,
   }), ProductModule, CartModule, BlogModule, HomepageModule,],
   controllers: [AppController],
